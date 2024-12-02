@@ -27,7 +27,7 @@ jobs:
         go-version: 1.19
 
     - name: Checkout code
-      uses: actions/checkout@v3.3.0
+      uses: actions/checkout@v3.5.2
 
     - name: Test
       run: make test-cover
@@ -57,7 +57,7 @@ jobs:
         go-version: 1.18.5
 
     - name: Checkout code
-      uses: actions/checkout@v3.3.0
+      uses: actions/checkout@v3.5.2
 
     - name: Test
       run: make test
